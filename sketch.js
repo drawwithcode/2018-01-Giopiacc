@@ -91,6 +91,8 @@ function draw() {
 	stroke(55,55,55);
 	rect(300,500,120,130);
 
+  
+
 
 	//braccia
 	rectMode(CENTER);
