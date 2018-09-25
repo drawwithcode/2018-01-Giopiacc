@@ -2,11 +2,38 @@ function setup() {
 	// define artboard size
 	createCanvas(600,800);
 	// Set here the values that are not changing all over the sketch
+	background(194,239,255);
+	//nuvola
+	ellipseMode(CENTER);
+	fill(255,255,255);
+	noStroke();
+	ellipse(180,100,240,120);
+
+	ellipseMode(CENTER);
+	fill(255,255,255);
+	noStroke();
+	ellipse(230,170,40,20);
+
+	ellipseMode(CENTER);
+	fill(255,255,255);
+	noStroke();
+	ellipse(250,190,30,15);
+
+	strokeWeight(2);
+	stroke(55, 55, 55);
+	line(700, 140, 900, 140);
+
 
 }
 
 function draw() {
-	background(204,136,153);
+
+
+	//terra
+	rectMode(CENTER);
+	noStroke();
+	fill(0,124,0);
+	rect(0,800,2000,350);
 
   //antenne
 	strokeWeight(2);
@@ -16,6 +43,16 @@ function draw() {
 	strokeWeight(2);
 	stroke(55,55,55);
 	line(300,300,400,200);
+
+	ellipseMode(CENTER);
+	fill(55,55,55);
+	stroke(55,55,55);
+	ellipse(205,200,20);
+
+	ellipseMode(CENTER);
+	fill(55,55,55);
+	stroke(55,55,55);
+	ellipse(395,200,20);
 
 	//testa
 	ellipseMode(CENTER);
@@ -53,11 +90,16 @@ function draw() {
 	ellipse(335,320,15);
 
 	//bocca
-	rectMode(CENTER);
 	strokeWeight(2);
-	fill(55,55,55);
-  stroke(55,55,55);
-	rect(300,350,60,5);
+	fill(255, 255, 255);
+	stroke(255,65,35);
+	arc(300, 343, 60, 35, TWO_PI, PI);
+	fill(245, 135, 30);
+
+	rectMode(CENTER);
+	fill(255,65,35);
+  noStroke();
+	rect(300,344,60,5);
 
 	//collo
 	rectMode(CENTER);
@@ -91,7 +133,11 @@ function draw() {
 	stroke(55,55,55);
 	rect(300,500,120,130);
 
-  
+	//write
+	strokeWeight(1);
+	stroke(190, 190, 190);
+	line(pmouseX, pmouseY, mouseX, mouseY);
+
 
 
 	//braccia
@@ -117,7 +163,6 @@ function draw() {
 	fill(215,215,215);
 	stroke(55,55,55);
 	ellipse(395,545,40);
-
 
 
 
