@@ -3,7 +3,7 @@ function setup() {
 	createCanvas(600,800);
 	// Set here the values that are not changing all over the sketch
 	background(194,239,255);
-	//nuvola
+	//cloud
 	ellipseMode(CENTER);
 	fill(255,255,255);
 	noStroke();
@@ -29,13 +29,13 @@ function setup() {
 function draw() {
 
 
-	//terra
+	//path
 	rectMode(CENTER);
 	noStroke();
 	fill(0,124,0);
 	rect(0,800,2000,350);
 
-  //antenne
+  //antennas
 	strokeWeight(2);
 	stroke(55,55,55);
 	line(300,300,200,200);
@@ -54,7 +54,7 @@ function draw() {
 	stroke(55,55,55);
 	ellipse(395,200,20);
 
-	//testa
+	//head
 	ellipseMode(CENTER);
   strokeWeight(2);
 	fill(55,55,55);
@@ -67,7 +67,7 @@ function draw() {
   stroke(55,55,55);
 	rect(300,330,130,80);
 
-	//occhi
+	//eyes
 	ellipseMode(CENTER);
 	fill(255,255,255);
 	stroke(55,55,55);
@@ -78,7 +78,7 @@ function draw() {
 	stroke(55,55,55);
 	ellipse(335,320,30);
 
-	//pupille
+	//pupils
 	ellipseMode(CENTER);
 	fill(95,158,160);
 	noStroke();
@@ -89,7 +89,7 @@ function draw() {
 	noStroke();
 	ellipse(335,320,15);
 
-	//bocca
+	//mouth
 	strokeWeight(2);
 	fill(255, 255, 255);
 	stroke(255,65,35);
@@ -101,14 +101,14 @@ function draw() {
   noStroke();
 	rect(300,344,60,5);
 
-	//collo
+	//neck
 	rectMode(CENTER);
 	strokeWeight(2);
 	fill(55,55,55);
   stroke(55,55,55);
 	rect(300,390,20,40);
 
-	//piedi
+	//feet
 	ellipseMode(CENTER);
 	fill(55,55,55);
 	stroke(55,55,55);
@@ -119,14 +119,14 @@ function draw() {
 	stroke(55,55,55);
 	ellipse(345,605,70);
 
-	//busto
+	//body
 	rectMode(CENTER);
 	strokeWeight(2);
 	fill(180,180,180);
 	stroke(55,55,55);
 	rect(300,500,190,200);
 
-	//pancia
+	//stomach
 	rectMode(CENTER);
 	strokeWeight(2);
 	fill(215,215,215);
@@ -138,9 +138,7 @@ function draw() {
 	stroke(190, 190, 190);
 	line(pmouseX, pmouseY, mouseX, mouseY);
 
-
-
-	//braccia
+	//arms
 	rectMode(CENTER);
 	strokeWeight(2);
 	fill(55,55,55);
@@ -153,7 +151,7 @@ function draw() {
   stroke(55,55,55);
 	rect(395,480,30,100);
 
-	//mani
+	//hands
 	ellipseMode(CENTER);
 	fill(215,215,215);
 	stroke(55,55,55);
